@@ -1,19 +1,25 @@
 [
   {
-    "repository":   "device_xiaomi_santoni",
-    "target_path":  "device/xiaomi/santoni",
-    "branch":      "pie"
+    "repository"  : "device_xiaomi_santoni",
+    "target_path" : "device/xiaomi/santoni",
+    "branch"      : "pie"
   },
   {
-    "remote":      "github",
-    "repository":   "HarukeyUA/android_kernel_xiaomi_santoni",
-    "target_path":  "kernel/xiaomi/msm8937",
-    "branch":      "DarkPhoenix-60fps"
+    "remote"      : "github",
+    "repository"  : "HarukeyUA/android_kernel_xiaomi_santoni",
+    "target_path" : "kernel/xiaomi/msm8937",
+    "branch"      : "DarkPhoenix-60fps"
   },
   {
-    "remote":      "github",
-    "repository":   "HarukeyUA/android_vendor_xiaomi_santoni",
-    "target_path":  "vendor/xiaomi",
-    "branch":      "android-pie"
+    "remote"      : "github",
+    "repository"  : "HarukeyUA/android_vendor_xiaomi_santoni",
+    "target_path" : "vendor/xiaomi",
+    "branch"      : "android-pie"
+  },
+  {
+    "repository"  : "packages_apps_Playground",
+    "target_path" : "packages/apps/Playground",
+    "branch"      : "pie",
+    "remote"      : "pixel-gitlab"
   }
 ]

@@ -246,6 +246,10 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0_system \
     android.hidl.manager@1.0-java
 
+# Playground for GoogleCamera
+PRODUCT_PACKAGES += \
+    PlaygroundMod
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/ft5x06_720p.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ft5x06_720p.kl \
