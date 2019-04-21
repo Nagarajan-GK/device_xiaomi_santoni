@@ -1,10 +1,8 @@
 [
   {
-    "repository": "android_device_xiaomi_msm8937-common",
-    "target_path": "device/xiaomi/msm8937-common"
-  },
-  {
-    "repository" : "android_external_json-c",
-    "target_path": "external/json-c"
+    "remote"     : "gh",
+    "repository" : "LineageOS/android_external_json-c",
+    "target_path": "external/json-c",
+    "revision"   : "lineage-16.0"
   }
 ]
