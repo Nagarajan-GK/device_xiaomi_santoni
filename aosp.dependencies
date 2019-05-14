@@ -1,0 +1,19 @@
+[
+  {
+    "repository":   "device_xiaomi_santoni",
+    "target_path":  "device/xiaomi/santoni",
+    "branch":      "pie"
+  },
+  {
+    "remote":      "github",
+    "repository":   "HarukeyUA/android_kernel_xiaomi_santoni",
+    "target_path":  "kernel/xiaomi/msm8937",
+    "branch":      "DarkPhoenix"
+  },
+  {
+    "remote":      "github",
+    "repository":   "HarukeyUA/android_vendor_xiaomi_santoni",
+    "target_path":  "vendor/xiaomi",
+    "branch":      "android-pie"
+  }
+]
