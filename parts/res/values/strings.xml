@@ -59,7 +59,7 @@
     <string name="dirac_preset_metal">Metal</string>
 
      <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">Mi sound</string>
+    <string name="dirac_qs_tile_title">Dirac</string>
 
     <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
     <string name="summary_empty" translatable="false"></string>
