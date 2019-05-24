@@ -47,7 +47,6 @@ public class PickupSensor implements SensorEventListener {
         mContext = context;
         mSensorManager = mContext.getSystemService(SensorManager.class);
         mSensor = DozeUtils.getSensor(mSensorManager, "xiaomi.sensor.pickup");
-        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_TILT_DETECTOR);
         mExecutorService = Executors.newSingleThreadExecutor();
     }
 
@@ -81,7 +80,6 @@ public class PickupSensor implements SensorEventListener {
         submit(() -> {
             mSensorManager.registerListener(this, mSensor,
                     SensorManager.SENSOR_DELAY_NORMAL);
-                    SensorManager.SENSOR_DELAY_NORMAL, BATCH_LATENCY_IN_MS * 1000);
             mEntryTimestamp = SystemClock.elapsedRealtime();
         });
     }
