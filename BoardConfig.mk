@@ -171,6 +171,9 @@ TARGET_INIT_VENDOR_LIB := libinit_santoni
 TARGET_PLATFORM_DEVICE_BASE := /devices/soc/
 TARGET_RECOVERY_DEVICE_MODULES := libinit_santoni
 
+# Interaction
+TARGET_USES_INTERACTION_BOOST =: true
+
 # Keymaster
 TARGET_PROVIDES_KEYMASTER := true
 
