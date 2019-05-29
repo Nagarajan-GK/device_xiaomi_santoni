@@ -21,5 +21,17 @@
     "target_path" : "packages/apps/Playground",
     "branch"      : "pie",
     "remote"      : "pixel-gitlab"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_packages_resources_devicesettings",
+    "target_path" : "packages/resources/devicesettings",
+    "revision"    : "lineage-16.0"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "LineageOS/android_external_bson",
+    "target_path" : "external/bson",
+    "revision"    : "lineage-16.0"
   }
 ]
