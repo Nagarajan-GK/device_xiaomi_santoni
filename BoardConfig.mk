@@ -201,7 +201,6 @@ TARGET_PER_MGR_ENABLED := true
 # Power
 TARGET_HAS_NO_WLAN_STATS := true
 TARGET_USES_INTERACTION_BOOST := false
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/soc/78b7000.i2c/i2c-3/3-0020/input/input2/wake_gesture"
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
@@ -221,6 +220,7 @@ $(shell rm -rf hardware/qcom/display-caf/msm8996/liblight)
 $(shell rm -rf vendor/qcom/common)
 
 # SELinux
+include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_SEPOLICY_VERS := 28.0
