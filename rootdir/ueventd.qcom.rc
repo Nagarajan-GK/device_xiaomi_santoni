@@ -197,6 +197,9 @@
 /dev/dvb/adapter0/dvr*    0660   media       media
 /dev/dvb/adapter0/video*  0660   media       media
 
+# dt2w
+/sys/devices/soc/78b7000.i2c/i2c-3/3-0020/input/input2     wake_gesture     0644    system  system
+
 # Broadcast devices
 /dev/tsc_mux0             0660   media       media
 /dev/tsc_ci0              0660   media       media
