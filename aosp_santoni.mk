@@ -32,6 +32,7 @@ $(call inherit-product, device/xiaomi/santoni/device.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 720
+TARGET_BOOT_ANIMATION_RES_EVO := true
 
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
